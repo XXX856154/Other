@@ -1,0 +1,26 @@
+ls 列出当前目录的文件和目录
+ls . 指相对路径的当前路径
+/  是指Linux上特殊的目录（相当于windows的此电脑）
+ls l 列出更详细的内容
+
+pwd 显示出当前的所在的绝对路径
+在Linux中，以‘/’开头的为绝对路径
+
+cd 切换目录
+
+ctrl+insert 复制
+shift +insert 粘贴
+
+touch 创建空文件
+cat 显示文件内容
+echo 打印内容到控制台，也可以用于写文件
+例如：echo 'hello'>java,txt
+
+ctrl l 清屏
+
+mkdir 创建新目录
+tree 可以看见目录的组成结构 （需要安装yum install tree）yum类似于应用商店
+rm（remove） 可删除文件，也可以删除目录
+rm -r 删除目录
+rm -rf 删除目录不需要确定
+rm -rf / 指删除系统所有文件
